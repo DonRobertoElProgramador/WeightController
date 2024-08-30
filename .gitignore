@@ -1,0 +1,95 @@
+# Java-related files
+*.class
+*.jar
+*.war
+*.ear
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Gradle files
+.gradle/
+build/
+out/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/resources/**
+
+# JavaFX-related files (if any temporary or generated files exist)
+*.jfxcache
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# VS Code
+.vscode/
+
+# OS-specific files
+
+# Windows
+Thumbs.db
+ehthumbs.db
+.DS_Store
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.nfs*
+
+# Generated files
+gen/
+gen-external-apklibs/
+
+# Ignore build artifacts and gradle generated files
+build/
+.gradle/
+gradle-app.setting
+
+# Ignore other IDE and OS generated files
+*.swp
+*~
+.project
+.classpath
+.cproject
+.settings/
+.metadata/
+
+# Ignore Gradle wrapper jar file
+gradle-wrapper.jar
+
+# Java debug logs
+hs_err_pid*
+
+# Ignore Maven directories
+.mvn/
+target/
+
+# Ignore JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+.gradle/
